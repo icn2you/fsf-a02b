@@ -65,6 +65,11 @@ FSWD, rendering in smaller viewports.
   /******************************************************************************
    Primary Content Elements
   *******************************************************************************/
+  .main-container {
+    float: none;
+    margin: 20px auto;
+  }
+
   main img {
     width: 50%;
   }
