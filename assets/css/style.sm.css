@@ -1,0 +1,30 @@
+/******************************************************************************
+FSWD:  Christopher B. Zenner
+Date:  02/22/2020
+File:  style.sm.css
+Ver.:  0.1.0 20200222
+
+This CSS specifies the layout and style for the basic portfolio site of the
+FSWD, rendering in smaller viewports.
+*******************************************************************************/
+
+/* Debug */
+/* { border: 1px solid red !important; }
+   { border: 1px solid orange !important; }
+   { border: 1px solid yellow !important; }
+   { border: 1px solid green !important; }
+   { border: 1px solid blue !important; }
+   { border: 1px solid purple !important; }
+*/
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+
+}
