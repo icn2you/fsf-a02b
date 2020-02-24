@@ -133,6 +133,7 @@ FSWD, rendering in smaller viewports.
   *******************************************************************************/
   main img,
   .photo-box {
+    padding: 0;
     width: 100%;
   }
 
