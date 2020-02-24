@@ -38,7 +38,27 @@ FSWD, rendering in smaller viewports.
   
   main img {
     width: 50%;
-  }  
+  }
+
+  main figure img,
+  .photo-label {
+    width: 100%;
+  }
+  
+  .photo-box {
+    /* DEBUG:
+    border: 1px solid red; */
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+    width: 46%;
+  }
+
+  .photo-box:nth-child(odd) {
+    float: right;
+    margin-left: 4%;
+  } 
 
   /******************************************************************************
    Site-specific Class & ID Elements
@@ -111,7 +131,8 @@ FSWD, rendering in smaller viewports.
   /******************************************************************************
    Primary Content Elements
   *******************************************************************************/
-  main img {
+  main img,
+  .photo-box {
     width: 100%;
   }
 
