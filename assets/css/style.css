@@ -99,6 +99,19 @@ nav ul li a:visited {
   color: #aaa;
 }
 
+a > figcaption:active,
+a > figcaption:hover {
+    background: #fff;
+    bottom: 10px;
+    color: #4aaaa5;
+    display: block;
+    float: left;
+    opacity: 75%;
+    padding: 10px 0;
+    position: absolute;
+    text-align: center;
+}
+
 a {
   text-decoration: none;
 }
